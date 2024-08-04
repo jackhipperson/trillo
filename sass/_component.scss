@@ -298,3 +298,36 @@
         box-shadow: none;
     }
 }
+
+/////////////////////////////////////////
+/// DESCRIPTION
+
+.description {
+    background-color: white;
+    flex: 0 0 60%;
+    margin-right: 3.5rem;
+}
+
+.paragraph {
+    font-size: 1.4rem;
+
+    &:not(:last-of-type) {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.list {
+
+    &__item {
+        display: flex;
+        flex: 0 0 50%;
+    }
+}
+
+/////////////////////////////////////////
+/// REVIEWS
+
+.reviews {
+    background-color: lime;
+    flex: 1;
+}
