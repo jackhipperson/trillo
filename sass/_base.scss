@@ -19,6 +19,9 @@
 $bp-largest: 75em; //1200px / 16
 $bp-large: 62.5em; //1000px
 $bp-med: 56.25em; //900px
+$bp-small:37.5em; //600px
+$bp-smallest:26.25em;//420px
+
 
 * {
     margin: 0;
@@ -33,6 +36,10 @@ $bp-med: 56.25em; //900px
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-med) {
+        font-size: 50%;
+    }
 }
 
 body {
